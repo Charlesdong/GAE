@@ -1,0 +1,8 @@
+application: dongfanliang1989 
+version: 1
+runtime: python
+api_version: 1
+
+handlers:
+- url: /.*
+  script: hello_world.py
